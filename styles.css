@@ -80,6 +80,11 @@ body {
   cursor: pointer;
   margin-left: 28vh;
 }
+#main_button:hover {
+  background: #b3ffe2;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.5);
+}
+
 .input_Button {
   display: flex;
   align-items: center;
