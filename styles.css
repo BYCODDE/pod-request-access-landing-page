@@ -1,6 +1,9 @@
 body {
-  background: #121725;
+  background-color: #121725;
   font-family: "Chivo", sans-serif !important;
+  background-image: url(/starter-code/assets/desktop/image-host.jpg);
+  background-repeat: no-repeat;
+  background-position: right 0 top -50%;
 }
 .main_container {
   display: flex;
@@ -16,8 +19,13 @@ body {
 }
 
 .left_container {
-  margin-top: 191px;
-  margin-left: 165px;
+  position: absolute;
+  /* margin-top: 191px;
+  margin-left: 165px; */
+  top: 20%;
+  left: 20%;
+  background: #121725;
+  padding: 25px;
 }
 
 #main_h1 {
@@ -76,7 +84,7 @@ body {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 200% */
+  line-height: 28px;
   cursor: pointer;
   margin-left: 28vh;
 }
@@ -100,7 +108,7 @@ body {
   display: flex;
   margin-top: 23vh;
 } */
-.right_container {
+/* .right_container {
   margin-top: 23vh;
   background: lightgray url(/starter-code/assets/desktop/image-host.jpg)
     no-repeat;
@@ -110,7 +118,7 @@ body {
   align-items: center;
   justify-content: center;
   background-size: cover;
-}
+} */
 #main_h3 {
   color: #fb3e3e;
   font-size: 12px;
