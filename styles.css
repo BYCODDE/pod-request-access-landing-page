@@ -3,7 +3,8 @@ body {
   font-family: "Chivo", sans-serif !important;
   background-image: url(./starter-code/assets/desktop/image-host.jpg);
   background-repeat: no-repeat;
-  background-position: right 0 top -50%;
+  background-position: right 0 top 40%;
+  height: 100vh;
 }
 .main_container {
   display: flex;
@@ -20,10 +21,8 @@ body {
 
 .left_container {
   position: absolute;
-  /* margin-top: 191px;
-  margin-left: 165px; */
-  top: 20%;
-  left: 20%;
+  top: 28%;
+  left: 12%;
   background: #121725;
   padding: 25px;
 }
