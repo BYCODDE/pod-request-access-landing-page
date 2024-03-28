@@ -11,7 +11,7 @@ body {
   /* justify-content: center; */
   align-items: center;
   gap: 13.5px;
-  margin-left: 165px;
+  /* margin-left: 165px; */
   margin-bottom: 202px;
 }
 
@@ -95,10 +95,13 @@ body {
   margin-top: 23vh;
 } */
 .right_container {
-  background: lightgray url(/starter-code/assets/desktop/image-host.jpg)
-    center/cover no-repeat;
-  width: 100%;
-  height: 640px;
-  display: flex;
   margin-top: 23vh;
+  background: lightgray url(/starter-code/assets/desktop/image-host.jpg)
+    no-repeat;
+  width: 100%;
+  height: 640px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
 }
