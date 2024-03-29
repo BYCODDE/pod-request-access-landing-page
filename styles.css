@@ -5,7 +5,6 @@ body {
   background-repeat: no-repeat;
   background-position: right 0 top 40%;
   height: 100vh;
-  overflow: hidden;
 }
 .main_container {
   display: flex;
@@ -115,4 +114,66 @@ body {
   position: absolute;
   bottom: 10vh;
   right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    mix-blend-mode: screen;
+    background-image: url(./starter-code/assets/mobile/image-host.jpg);
+  }
+
+  .left_container {
+    position: static;
+    padding: 0px;
+    background: none;
+    /* margin-bottom: 68px; */
+  }
+
+  #main_svg {
+    display: none;
+  }
+  .top_container {
+    margin-bottom: 60px;
+    margin-top: 72px;
+    justify-content: center;
+  }
+
+  #main_h1 {
+    width: 327px;
+    font-size: 26px;
+  }
+  .left_container p {
+    width: 327px;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 34px;
+  }
+  .secondMain_div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .media {
+    width: 49vh;
+    gap: 23px;
+    margin-bottom: 30px;
+  }
+  .secondMain_div input {
+    width: 327px;
+    height: 46px;
+  }
+  .secondMain_div button {
+    width: 327px;
+    height: 46px;
+    margin-top: 21vh;
+    margin-left: 0;
+  }
 }
