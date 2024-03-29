@@ -169,7 +169,7 @@ body {
   .secondMain_div {
     display: flex;
     flex-direction: column-reverse;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
     justify-content: center;
     align-items: center;
   }
