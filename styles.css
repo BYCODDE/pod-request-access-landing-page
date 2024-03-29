@@ -12,10 +12,8 @@ body {
 }
 .top_container {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 13.5px;
-  /* margin-left: 165px; */
   margin-bottom: 202px;
 }
 
@@ -45,7 +43,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 28px; /* 155.556% */
+  line-height: 28px;
   opacity: 0.7;
   width: 445px;
   margin-bottom: 40px;
@@ -68,9 +66,6 @@ body {
   font-weight: 400;
   line-height: 28px;
   opacity: 0.5;
-
-  /* text-align: left; */
-  /* direction: ltr; */
 }
 .secondMain_div button {
   position: absolute;
@@ -96,28 +91,13 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 64px;
-  /* justify-content: center; */
 }
 .media {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-/* .right_container img {
-  display: flex;
-  margin-top: 23vh;
-} */
-/* .right_container {
-  margin-top: 23vh;
-  background: lightgray url(/starter-code/assets/desktop/image-host.jpg)
-    no-repeat;
-  width: 100%;
-  height: 640px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-} */
+
 #main_h3 {
   color: #fb3e3e;
   font-size: 12px;
